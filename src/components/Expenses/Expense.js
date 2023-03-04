@@ -18,7 +18,6 @@ function Expense(props){
         <ExpenseItem
           item={expense.item}
           price={expense.price}
-          location={expense.location}
           Date={expense.date}
         />
       ))}

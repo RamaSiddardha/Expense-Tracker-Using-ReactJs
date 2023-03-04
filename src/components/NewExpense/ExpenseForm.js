@@ -21,8 +21,8 @@ function NewExpenseForm(props) {
   let submitHandler = (e) => {
     e.preventDefault();
     let EnteredValues = {
-      title: EnteredTitle,
-      amount: EnteredAmount,
+      item: EnteredTitle,
+      price: EnteredAmount,
       date: new Date(EnteredDate),
     };
 
