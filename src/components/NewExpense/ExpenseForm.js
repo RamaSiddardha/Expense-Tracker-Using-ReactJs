@@ -53,6 +53,7 @@ function NewExpenseForm(props) {
           <input type="date" value={EnteredDate} onChange={DateChangeEvent} />
         </div>
         <div className="new-expense__actions">
+          <button type="button" onClick={props.onCancel}>Cancel</button>
           <button tyope="Submit">Add Expense</button>
         </div>
       </div>
